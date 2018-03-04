@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css" />
+	<title></title>
+</head>
+<body>
+	<div id="wrapper">
+        <div id="link">
+            <form method="post" action="login.php">
+        <input type="text" name="email" id="name" placeholder="Email or Phone">
+            <input type="password" name="password" id="name" placeholder="Password">
+                <input type="submit" name="login" value="Log in">
+            </form>
+        </div>
+        </div>
+        <div id="signup">
+            <div id="signupwrapper">
+            <p>Sign Up</p>
+            </div>
+        <form method="post" action="signup.php">
+            Enter Name<br>
+            <input type="text" name="username" id="username" required=""><br>
+            Email or Phone<br>
+            <input type="email" name="email" id="email" required=""><br>
+            Password<br>
+            <input type="password" name="password" id="password" required=""><br>
+            Re-enter Password<br>
+            <input type="password" name="repassword" id="repassword" required="">
+            <input type="submit" name="signup" value="Create Account" id="button">
+            
+            </form>
+        </div>
+    
+
+</body>
+</html>
